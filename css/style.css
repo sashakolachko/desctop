@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+.container{
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  background: url("../images/img4.jpg") no-repeat center top / cover;
+}
+.bottom-panel{
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:40px;
+  width:100%;
+  background:#000;
+}
+.bottom-panel__apps{
+  display: inline-block;
+  margin-left: 15px;
+  margin-top: 4px;
+}
+.bottom-panel__vidgets{
+  display: inline-flex;
+  height: 24px;
+  float: right;
+  margin-right: 15px;
+  padding-top: 5px;
+}
+.apps__item{
+  padding-right: 10px;
+}
+.vidgets__item,
+.vidgets__language,
+.vidgets__date-time{
+  padding-left: 10px;
+}
+.vidgets__language{
+  text-align: center;
+  color: white;
+  padding-top: 5px;
+}
+.vidgets__date-time{
+  text-align: center;
+  color: white;
+}

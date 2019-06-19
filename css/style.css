@@ -80,6 +80,14 @@
   margin-left: 15px;
   margin-top: 4px;
 }
+.aside-vidgets__item{
+  box-sizing: border-box;
+  width: 89px;
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+.aside-vidgets__item:hover{
+  border: 1px solid rgba(254, 254, 254, 0.5);
+}
 .bottom-panel__vidgets{
   display: inline-block;
   float: right;

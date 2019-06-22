@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-.container{
+
+.container {
   width: 100vw;
   height: 100vh;
   font-family: 'Roboto', sans-serif;
-  color:#ffffff;
+  color: #ffffff;
   background: url("../images/img4.jpg") no-repeat center top / cover;
 }
-.desktop{
+
+.desktop {
   position: relative;
   padding: 20px;
 }
-.desktop__folder{
+
+.desktop__folder {
   display: inline-block;
   position: absolute;
   font-size: 14px;
@@ -18,28 +21,35 @@
   width: 72px;
   text-align: center;
 }
-.desktop__folder:hover{
+
+.desktop__folder:hover {
   border: 1px solid rgba(254, 254, 254, 0.2);
   background-color: rgba(255, 255, 255, 0.15);
 }
-.folder__name{
+
+.folder__name {
   padding-top: 5px;
 }
-.beet{
-  top:130px;
+
+.beet {
+  top: 130px;
 }
-.fe-13{
-  top:240px;
+
+.fe-13 {
+  top: 240px;
 }
-.task-file{
-  top:130px;
-  left:350px;
+
+.task-file {
+  top: 130px;
+  left: 350px;
 }
-.excel-file{
-  left:650px;
-  top:360px;
+
+.excel-file {
+  left: 650px;
+  top: 360px;
 }
-.aside-vidgets{
+
+.aside-vidgets {
   position: absolute;
   bottom: 40px;
   right: 0;
@@ -47,15 +57,17 @@
   width: 400px;
   background-color: rgba(0, 0, 0, 0.51);
 }
-.bottom-panel{
-  position:fixed;
-  left:0px;
-  bottom:0px;
-  height:40px;
-  width:100%;
-  background:#000;
+
+.bottom-panel {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 40px;
+  width: 100%;
+  background: #000;
 }
-.aside-vidgets__head{
+
+.aside-vidgets__head {
   position: absolute;
   top: 50px;
   padding: 10px;
@@ -63,43 +75,52 @@
   text-align: center;
   font-size: 15px;
 }
-.aside-vidgets__images{
+
+.aside-vidgets__images {
   position: absolute;
   bottom: 0;
   padding: 10px;
 }
-.images__heading{
+
+.images__heading {
   text-align: left;
   font-size: 12px;
-  padding-bottom:10px;
+  padding-bottom: 10px;
   line-height: 1.2;
   color: #5d98c7;
 }
-.bottom-panel__apps{
+
+.bottom-panel__apps {
   display: inline-block;
   margin-left: 15px;
   margin-top: 4px;
 }
-.aside-vidgets__item{
+
+.aside-vidgets__item {
   box-sizing: border-box;
   width: 89px;
   border: 1px solid rgba(255, 255, 255, 0);
 }
-.aside-vidgets__item:hover{
+
+.aside-vidgets__item:hover {
   border: 1px solid rgba(254, 254, 254, 0.5);
 }
-.bottom-panel__vidgets{
+
+.bottom-panel__vidgets {
   display: inline-block;
   float: right;
   margin-right: 15px;
   padding-top: 5px;
 }
-.apps__item{
+
+.apps__item {
   margin-right: 10px;
 }
-.vidgets__item{
-  height:24px;
+
+.vidgets__item {
+  height: 24px;
 }
+
 .vidgets__item,
 .vidgets__language,
 .vidgets__date-time {
